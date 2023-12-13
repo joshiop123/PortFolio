@@ -1,0 +1,749 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: matter Light, Roboto Flex;
+
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    /* background-color: #C4BCB3; */
+    
+
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.first {
+    padding-top: 10px;
+    /* min-height: 100vh; */
+    background-color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar h1 {
+    margin-left: 2vw;
+    margin-top: .5vw;
+
+}
+
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    margin-right: 3vw;
+}
+
+.nav-left i {
+    font-size: 1.5vw;
+}
+
+.second {
+    width: 100%;
+    padding: 17vw 20vw;
+
+}
+
+.second h1 {
+    font-weight: 400;
+    font-size: 2vw;
+
+
+}
+
+.heading {
+    display: flex;
+    gap: 40px;
+    padding-left: 5vw;
+}
+
+.heading h2 {
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    font-weight: 349;
+    font-size: 5.5vw;
+}
+
+.heading h2:hover {
+    color: #000;
+
+}
+
+
+.third {
+    padding: 1vw 20vw;
+}
+
+.third p {
+    width: 94%;
+    font-size: 1.5vw;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.third p::selection {
+    color: #fff;
+    background-color: #000;
+}
+
+.fourth {
+    width: 80%;
+    margin-top: 15vw;
+    position: relative;
+    left: 20vw;
+    bottom: 5vw;
+
+
+}
+
+.pro h2 {
+    font-size: 2.5vw;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.project {
+    /* background-color: #C4BCB3; */
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.fun {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30%;
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 40%;
+}
+
+.projects {
+    border-top: 2px solid #000;
+    height: 90%;
+    width: 30%;
+    perspective: 60rem;
+}
+
+.projects img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: rotate 400ms, scale 200ms;
+}
+
+.projects img:hover {
+    border-radius: 20%;
+    cursor: pointer;
+    rotate: y 10deg;
+    scale: 1.05;
+    transition: all .7s ease-in-out;
+    filter: brightness(80%);
+
+
+}
+
+.projects h3 {
+    margin-top: 1.2vw;
+    margin-bottom: .2vw;
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+.projects p {
+    opacity: .5;
+    font-weight: 200;
+    margin-bottom: .9vw;
+}
+
+
+.projects .sc {
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+    filter: brightness(80%);
+
+}
+
+.projects .th {
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+    filter: brightness(80%);
+
+}
+
+.sc {
+    margin-bottom: 20vw;
+}
+
+.th {
+    margin-bottom: 40vw;
+
+}
+
+
+.btn {
+    position: absolute;
+    top: 45vw;
+    left: 45vw;
+    text-align: center;
+    margin-bottom: 5vw;
+
+}
+
+.btn button {
+    padding: 1vw 1vw;
+    border-radius: 100px;
+    font-size: 1vw;
+    border: 2px solid #e6e6e6;
+    background-color: #fff;
+    font-weight: 500;
+
+}
+
+
+button:hover {
+
+    background-color: #000;
+    color: white;
+
+
+}
+
+.info {
+    height: 100vh;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.info-one {
+    display: flex;
+
+}
+
+.info-one h3 {
+    font-weight: 100;
+    font-size: 2.5vw;
+    margin-left: 12vw;
+    margin-top: 21vw;
+}
+
+.info-one p {
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-left: -16vw;
+    margin-top: 25vw;
+
+}
+
+.about {
+    margin-top: 5vw;
+    margin-left: 17vw;
+}
+
+.abc {
+    border-top: 2px solid #000;
+    margin-bottom: 5vw;
+}
+
+.abc button {
+    margin-top: 3vw;
+    padding: 1vw 1vw;
+    border-radius: 100px;
+    font-size: 1vw;
+    border: 2px solid #e6e6e6;
+    font-weight: 500;
+
+}
+
+.abc h1 {
+    margin-top: 1vw;
+    font-weight: 400;
+}
+
+.bc {
+    border-top: 2px solid #000;
+    margin-bottom: 5vw;
+}
+
+.bc button {
+    margin-top: 3vw;
+    padding: 1vw 1vw;
+    border-radius: 100px;
+    font-size: 1vw;
+    border: 2px solid #e6e6e6;
+    font-weight: 500;
+
+}
+
+.bc h1 {
+    margin-top: 1vw;
+    font-weight: 400;
+
+}
+
+
+.ab {
+    border-top: 2px solid #000;
+    margin-bottom: 5vw;
+}
+
+.ab button {
+    margin-top: 3vw;
+    padding: 1vw 1vw;
+    border-radius: 100px;
+    font-size: 1vw;
+    border: 2px solid #e6e6e6;
+    font-weight: 500;
+
+
+
+}
+
+.ab h1 {
+    margin-top: 1vw;
+    font-weight: 400;
+
+}
+
+.some {
+    height: 50vh;
+    margin-top: 65vw;
+    margin-left: 23.5vw;
+    display: flex;
+}
+
+.wrote p {
+    width: 50%;
+    margin-left: 20vw;
+}
+
+.write {
+    border-bottom: 2px solid #000;
+    margin-bottom: 16vw;
+
+}
+
+.write h3 {
+    font-size: 2vw;
+    font-weight: 400;
+    margin-top: 2vw;
+}
+
+.wrote p {
+    font-size: 1.4vw;
+
+}
+
+.wrote button {
+    margin-left: 20vw;
+    margin-top: 2.9vw;
+    padding: 1vw 1vw;
+    border-radius: 100px;
+    font-size: 1vw;
+    background-color: rebeccapurple;
+    color: white;
+    border: 2px solid;
+    font-weight: 500;
+
+}
+
+.wrote button:hover {
+    color: goldenrod;
+}
+
+.know {
+    height: 100vh;
+    margin-top: 5vw;
+    display: inline;
+}
+
+.know-one {
+    margin-left: 23.1vw;
+    width: 20%;
+    border-bottom: 2px solid black;
+
+
+}
+
+.know-one h3 {
+    font-size: 2vw;
+    margin-bottom: 2vw;
+
+    font-weight: 400;
+}
+
+.know-two {
+    margin-left: 23.1vw;
+    margin-top: 3vw;
+    width: 20%;
+    border-bottom: 2px solid black;
+
+}
+
+.know-two p {
+    margin-bottom: 2vw;
+}
+
+.know-three {
+    width: 20%;
+    margin-left: 23.1vw;
+    margin-top: 3vw;
+    border-bottom: 2px solid black;
+
+}
+
+.know-three p {
+    margin-bottom: 2vw;
+}
+
+.v img {
+    height: 40%;
+    width: 40%;
+    opacity: 100px;
+    object-fit: cover;
+    margin-top: -24vw;
+    margin-left: 50vw;
+}
+
+/* .foot{
+    margin-top: 5vw;
+    height: 50vh;
+    width: 100%;
+    color: white;
+    background-color: #000000d8;
+} */
+
+
+
+
+footer {
+    /* background-color: #333; */
+    color: #fff;
+    margin-top: 5vw;
+    padding: 20px 0;
+    text-align: center;
+  
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.social-links {
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
+
+p {
+    font-size: 14px;
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .first {
+        width: 100%;
+
+    }
+
+    .first h1 {
+        font-size: 19px;
+    }
+
+    .nav-left {
+        margin-right: 10px;
+    }
+
+    .nav-left h2 {
+        font-size: 19px;
+    }
+
+    .nav-left i {
+        font-size: 18px;
+    }
+
+    .second {
+        padding: 0vw 0vw;
+    }
+
+    .second h1 {
+        margin-top: 50px;
+        margin-left: 60px;
+        margin-bottom: 10px;
+    }
+
+    .heading {
+        padding: 0vw;
+        display: inline;
+        margin-left: 110px;
+        position: relative;
+        top: 50px;
+
+
+    }
+
+    .heading h2 {
+        margin-bottom: 10vw;
+    }
+
+    .third {
+        padding: 0vw;
+        position: relative;
+        top: 100px;
+    }
+
+    .third p {
+        width: 90%;
+        font-size: 13px;
+        margin-left: 5%;
+        letter-spacing: -1px;
+    }
+
+    .fourth {
+        padding: 0vw;
+        position: relative;
+        top: 140px;
+        
+    }
+
+    .fourth .pro h2 {
+        font-size: 19px;
+    }
+
+    .fun {
+        width: 90%;
+        margin-left: -2%;
+    }
+
+    .btn {
+        margin-top: 360px;
+
+
+    }
+
+    .btn button {
+        position: relative;
+        right: 40%;
+        font-size: 10px;
+
+    }
+
+    .project {
+        position: relative;
+        bottom: 40px;
+        min-height: 10vh;
+    }
+
+
+    .projects img {
+        height: 50%;
+        width: 100%;
+        object-fit: contain;
+
+    }
+
+    .projects h3 {
+        font-size: 15px;
+    }
+    .info{
+        height: 20vh;
+        position: relative;
+        top: 300px;
+    }
+
+    .info-one h3 {
+        font-size: 20px;
+        position: relative;
+        bottom: 380px;
+        right: 70px;
+
+
+    }
+
+    .info-one p {
+        position: absolute;
+        top: -340px;
+        font-size: 9px;
+        width: 80%;
+        left: 30px;
+    }
+
+    .about {
+        margin: 0vw;
+    }
+
+    .abc h1 {
+        font-size: 18px;
+
+    }
+
+    .abc button {
+        font-size: 10px;
+    }
+
+    .abc {
+        width: 75%;
+        position: relative;
+        bottom: 420px;
+        left: 55px;
+    }
+
+    .bc h1 {
+        font-size: 18px;
+
+    }
+
+    .bc button {
+        font-size: 10px;
+    }
+
+    .bc {
+        width: 75%;
+        position: relative;
+        bottom: 420px;
+        left: 55px;
+    }
+
+    .ab h1 {
+        font-size: 18px;
+
+    }
+
+    .ab button {
+        font-size: 10px;
+    }
+
+    .ab {
+        width: 75%;
+        position: relative;
+        bottom: 420px;
+        left: 55px;
+    }
+
+    .some {
+        position: relative;
+        bottom: 10px;
+        display: flex;
+    }
+
+    .write h3 {
+        font-size: 20px;
+        position: relative;
+        right: 75px;
+    }
+
+    .wrote p {
+        font-size: 12px;
+        width: 100%;
+        position: relative;
+        right: 75.9px;
+    }
+
+    .write {
+        border-bottom: none;
+    }
+
+    .wrote button {
+        font-size: 10px;
+        position: relative;
+        right: 72px;
+    }
+
+    .know {
+        position: relative;
+        bottom: 30px;
+
+    }
+
+    .know-one h3 {
+        font-size: 12px;
+
+    }
+
+    .know-one {
+        position: relative;
+        right: 70px;
+    }
+
+    .know-two h4 {
+        font-size: 12px;
+    }
+
+    .know-two {
+        position: relative;
+        right: 70px;
+    }
+    .know-two p{
+        font-size: 12px;
+    }
+
+    .know-three p {
+        font-size: 10px;
+    }
+
+    .know-three {
+        position: relative;
+        right: 70px;
+    }
+
+    .v {
+        position: relative;
+        bottom: 50px;
+    }
+    .v img{
+        height: 50%;
+        width: 50%;
+        object-fit:cover;
+        position: relative;
+        right: 5px;
+    }
+    main{
+        min-height: 190vh;
+    }
+   
+
+
+}
